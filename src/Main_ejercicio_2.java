@@ -9,9 +9,8 @@ public class Main_ejercicio_2 {
         ListaEnlazadaDoble lista = new ListaEnlazadaDoble();
         boolean control = true;
         while(control){
-            int op, pos, longitud;
+            int op, pos;
             Object dato;
-            boolean vacia;
             System.out.println("\tBienvenid@ al menú:");
             System.out.println("1-.Agregar un valor a la lista.");
             System.out.println("2-.Insertar un valor.");
@@ -57,5 +56,6 @@ public class Main_ejercicio_2 {
                 default -> System.out.println("Ingrese una opción válida.");
             }
         }
+        leer.close();
     }
 }

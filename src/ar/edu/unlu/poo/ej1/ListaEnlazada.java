@@ -74,9 +74,7 @@ public class ListaEnlazada {
                 if(contador==(posicion-1)){
                     //Si el nodo es nulo entonces simplemente seteo el proximo como nulo
                     //Es el caso en que no haya proximo
-                    if(nodoAux == null){
-                        nodoAux.setProximo(null);
-                    } else {
+                    if(nodoAux != null){
                         //Nodo Aux le pasa el proximo al nodo Pos
                         nodoPos = nodoAux.getProximo();
                         //Noso Pos le pasa el proximo al nodo Aux

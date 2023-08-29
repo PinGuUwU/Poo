@@ -63,7 +63,6 @@ public class Main_ejercicio_1 {
             }
             System.out.println("\n");
         }
-
-
+        leer.close();
     }
 }

@@ -48,5 +48,6 @@ public class Main_ejercicio_4 {
                 default -> System.out.println("Ingrese una opción válida.");
             }
         }
+        leer.close();
     }
 }

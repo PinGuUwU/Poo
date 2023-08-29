@@ -51,6 +51,6 @@ public class Main_ejercicio_3 {
             }
             System.out.println("\n");
         }
-
+        leer.close();
     }
 }
