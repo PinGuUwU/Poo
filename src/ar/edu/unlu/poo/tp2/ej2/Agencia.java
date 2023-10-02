@@ -46,26 +46,19 @@ public class Agencia {
         System.out.println("0-.Salir.");
         System.out.println("Ingrese una opcion: ");
         int op = leer.nextInt();
-        switch(op){
-            case 0 : return false;
-            case 1 : agregarCliente();
-                break;
-            case 2 : agregarPaquete();
-                break;
-            case 3 : agregarProveedor();
-                break;
-            case 4 : agregarVenta();
-                break;
-            case 5 : verProveedores();
-                break;
-            case 6 : verPaquetes();
-                break;
-            case 7 : verVentas();
-                break;
-            case 8 : destinoFavorito();
-                break;
-            case 9 : verClientes();
-                break;
+        switch (op) {
+            case 0 -> {
+                return false;
+            }
+            case 1 -> agregarCliente();
+            case 2 -> agregarPaquete();
+            case 3 -> agregarProveedor();
+            case 4 -> agregarVenta();
+            case 5 -> verProveedores();
+            case 6 -> verPaquetes();
+            case 7 -> verVentas();
+            case 8 -> destinoFavorito();
+            case 9 -> verClientes();
         }
         return true;
     }

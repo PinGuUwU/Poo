@@ -29,7 +29,7 @@ public class Credencial {
     }
     public int numero(){
         return getNumeroCredencial();
-    }
+}
     public boolean esSocioActivo(){
         LocalDate date = LocalDate.now();
         return (fechaVencimiento.isAfter(date));
